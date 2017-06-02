@@ -1287,9 +1287,11 @@ a.button:hover {
 .main-container,
 .footer-container {
   position: relative;
-  max-width: 1260px;
+  /*max-width: 1260px;*/
   margin: 0 auto;
   padding: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .main-container:after,
 .footer-container:after {
@@ -1306,6 +1308,10 @@ a.button:hover {
 }
 .footer-container {
   padding-top: 0px;
+  background-color: #6b6b6b;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -42px;
 }
 
 /* -------------------------------------------- *
@@ -3119,8 +3125,8 @@ body {
  * ============================================ */
 @media only screen and (min-width: 771px) {
   .page-header {
-    max-width: 1260px;
-    margin: 0 auto;
+    /*max-width: 1260px;
+    margin: 0 auto;*/
     padding: 0 30px;
   }
 
@@ -3131,6 +3137,8 @@ body {
 .header-language-container,
 .page-header {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  background-image : url("../images/fondo_header.jpg");
+  margin-bottom: -15px;
 }
 
 /* ============================================ *
@@ -3138,7 +3146,7 @@ body {
  * ============================================ */
 .header-language-background {
   padding: 10px;
-  background-color: #3399cc;
+  background-color: #e9f8f8;;
   text-transform: uppercase;
 }
 .header-language-background .header-language-container {
@@ -3157,7 +3165,7 @@ body {
   margin-right: 10px;
 }
 .header-language-background .welcome-msg {
-  float: right;
+  float: left;
 }
 
 .page-header-container .store-language-container {
@@ -3182,7 +3190,7 @@ body {
 }
 .header-language-background,
 .header-language-background a {
-  color: #e6e6e6;
+  color: #8c8e8e;
 }
 
 @media only screen and (max-width: 770px) {
@@ -3227,6 +3235,7 @@ body {
   .logo .large {
     display: block;
   }
+  
 }
 /* ============================================ *
  * Skip Links
@@ -3243,6 +3252,7 @@ body {
     border: 0;
   }
 }
+
 /* -------------------------------------------- *
  * Skip - Link
  */
@@ -3251,7 +3261,6 @@ body {
   float: left;
   width: 20%;
   height: 44px;
-  background: #FFFFFF;
   color: #636363;
   line-height: 42px;
   text-align: center;
@@ -3273,6 +3282,7 @@ a.skip-link {
   .skip-link:last-child {
     border-right: 0;
   }
+
 }
 @media only screen and (min-width: 500px) {
   .skip-link {
@@ -3405,6 +3415,7 @@ a.skip-link {
     display: block;
     /* Force visibility */
     border-bottom: 1px solid #ededed;
+	
   }
 }
 /* ============================================ *
@@ -3604,11 +3615,12 @@ a.skip-link {
   #header-search {
     display: block;
     position: absolute;
-    top: 55px;
+    top: 24px;
     right: 0;
-    width: 25%;
+    width: 35%;
     height: 50px;
     padding: 0;
+    left: 383px;
   }
 }
 /* ============================================ *
@@ -3678,7 +3690,7 @@ a.skip-link {
 @media only screen and (min-width: 771px) {
   .skip-account {
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 115px;
     width: auto;
     padding: 0 10px;
@@ -3691,7 +3703,7 @@ a.skip-link {
     display: block;
     position: absolute;
     z-index: 200;
-    top: 40px;
+    top: 58px;
     right: 115px;
     width: 200px;
   }
@@ -3754,7 +3766,7 @@ a.skip-link {
     display: block;
     position: absolute;
     z-index: 200;
-    top: 40px;
+    top: 59px;
     right: 0;
     width: 320px;
     background: white;
@@ -3800,6 +3812,8 @@ a.skip-link {
   .skip-cart {
     color: #3399cc;
     text-transform: uppercase;
+	position: absolute;
+    top: 19px;
   }
   .skip-cart:hover {
     text-decoration: none;
@@ -3951,7 +3965,7 @@ a.skip-link {
   padding: 4px 0;
 }
 .footer .links a {
-  color: #636363;
+  color: #d4d4d4;
 }
 .footer .links a:hover {
   color: #3399cc;
@@ -4217,7 +4231,7 @@ p.product-name a:hover {
 
 .products-grid .product-info {
   position: relative;
-  padding-bottom: 95px;
+  padding-bottom: 109px;
 }
 
 .products-grid .actions {
@@ -9710,4 +9724,9 @@ div.calendar table td.button {
   background: inherit;
   color: inherit;
   text-transform: none;
+}
+
+#header-nav {
+   background-image: url(../images/fondo_nav.jpg);
+   height: 41px;
 }

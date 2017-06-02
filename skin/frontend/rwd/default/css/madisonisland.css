@@ -28,8 +28,11 @@
 /* -------------------------------------------- *
  * Primary Banner
  */
-body.cms-home .main-container {
+	body.cms-home .main-container {
   padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: -21px;
 }
 body.cms-home .slideshow-container {
   margin-top: 0;
