@@ -1132,7 +1132,7 @@ a.button:hover {
  */
 .breadcrumbs {
   overflow: hidden;
-  margin: -15px 0 15px;
+  margin: 0px 0 15px;
 }
 
 .breadcrumbs li {
@@ -1311,7 +1311,7 @@ a.button:hover {
   background-color: #6b6b6b;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: -42px;
+  margin-top: 0px;
 }
 
 /* -------------------------------------------- *
@@ -1359,7 +1359,6 @@ a.button:hover {
 .col1-layout .col-main {
   float: none;
   width: auto;
-  padding: 0;
   /* Remove the 15px padding */
 }
 
@@ -3440,6 +3439,7 @@ a.skip-link {
 }
 .nav-primary li {
   position: relative;
+  top:10px;
 }
 .nav-primary li.level1 a {
   border-bottom: 1px solid #cccccc;
@@ -9728,5 +9728,10 @@ div.calendar table td.button {
 
 #header-nav {
    background-image: url(../images/fondo_nav.jpg);
-   height: 41px;
+   height: 71px;
+}
+
+.main-container {
+	background-image: url(../images/fondo.png);
+	padding-top: 0px;
 }
