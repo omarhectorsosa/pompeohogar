@@ -376,8 +376,7 @@ implements Mage_HTTP_IClient
             $uri = str_replace('http://', '', $uri);
             $uri = 'https://' . $uri;
         }
-        echo "Paso..";
-die();		
+
         $this->curlOption(CURLOPT_URL, $uri);
         $this->curlOption(CURLOPT_SSL_VERIFYPEER, FALSE);
         $this->curlOption(CURLOPT_SSL_VERIFYHOST, 2);
