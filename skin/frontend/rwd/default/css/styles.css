@@ -9732,6 +9732,6 @@ div.calendar table td.button {
 }
 
 .main-container {
-	background-image: url(../images/fondo.png);
+	/*background-image: url(../images/fondo.png);*/
 	padding-top: 0px;
 }
